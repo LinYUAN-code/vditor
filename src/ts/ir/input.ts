@@ -253,9 +253,7 @@ export const input = (
     }
 
     log("SpinVditorIRDOM", html, "argument", vditor.options.debugger)
-    console.log(html)
     html = vditor.lute.SpinVditorIRDOM(html)
-    console.log(html)
     log("SpinVditorIRDOM", html, "result", vditor.options.debugger)
 
     if (isIRElement) {
